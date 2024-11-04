@@ -3,25 +3,32 @@ Archie is a minimal and clean theme for hugo with a markdown-ish UI.
 
 Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil)
 
+
 ## Demo
 
-[Check the Demo](https://athul.github.io/archie/) hosted on GitHub Pages :smile: . You can find the source code to that in the `site` branch of this repository
+[Check the Demo](https://athul.github.io/archie/) hosted on GitHub Pages. You can find the source code to that in the `site` branch of this repository.
 
 ![](/images/theme.png)
 ![](/images/archie-dark.png)
-## Feature
+
+
+## Features
+
 - Google Analytics Script
 - Callouts
 - Tags
 - Auto Dark Mode(based on system theme)
 - Dark/Light Mode toggle
-- tl:dr; frontamatter
+- tl:dr; Front matter
 - Table of contents
 - Cache busting for CSS files
 - Disqus Comments
 
+
 ## Installation
+
 In your Hugo website directory, create a new folder named theme and clone the repo
+
 ```bash
 $ mkdir themes
 $ cd themes
@@ -33,7 +40,9 @@ For more information read the official [setup guide](https://gohugo.io/installat
 If you encounter any issues with Google Analytics, update Hugo to v0.125.0 or
 later and make sure your using the latest version of the theme.
 
+
 ## Writing Posts
+
 Create a new `.md` file in the *content/posts* folder
 ```yml
 ---
@@ -47,7 +56,9 @@ toc: true/false (optional)
 ---
 ```
 
+
 ## Credits
+
 Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
 Inspired by design of blog.jse.li
 
@@ -56,6 +67,7 @@ Inspired by design of blog.jse.li
 ## Config Options
 
 ### Custom CSS
+
 Custom CSS files can be included though the `customcss` config parameter.
 
 Note: CSS files should be placed under the `assets` directory e.g. `assets/css/first.css`.
@@ -131,6 +143,6 @@ weight = 4
 ```
 ---
 
-If you liked my work please consider supporting me on [BuymeACoffee](https://www.buymeacoffee.com/athulca)
+If you liked my work please consider supporting me on [Buy me a coffee](https://www.buymeacoffee.com/athulca)
 
 <a href="https://www.buymeacoffee.com/athulca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="41" width="174" ></a>
