@@ -8,7 +8,8 @@
 		{{ end }}
 		{{ if eq .Site.Params.mode "toggle" -}}
         | <a id="dark-mode-toggle" onclick="toggleTheme()"></a>
-		<script src="{{ absURL "js/themetoggle.js" }}"></script>
+				{{ $js := resources.Get "js/themetoggle.js" | minify }}
+				<script src="{{ $js.Permalink }}"></script>
 		{{ end }}
 	</nav>
 </header>
